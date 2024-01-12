@@ -6,10 +6,10 @@ from playwright.sync_api import Page
 
 
 @pytest.fixture
-def search_page(page: Page) -> BaiduSearchPage:
+def search_page(page):
     return BaiduSearchPage(page)
 
 
 @pytest.fixture
-def result_page(page: Page) -> BaiduResultPage:
+def result_page(page):
     return BaiduResultPage(page)
