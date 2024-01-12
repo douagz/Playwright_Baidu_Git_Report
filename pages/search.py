@@ -1,23 +1,18 @@
-import allure
 from playwright.sync_api import Page
-from common.log import Logger
 from config.config import Config
 
 
 class BaiduSearchPage:
 
-    logger=Logger('BaiduSearchPage').getlog()
 
-    def __init__(self, page: Page) -> None:
+    def __init__(self, page):
         self.page = page
         self.search_input = page.locator("#kw")
         self.search_button = page.locator("#su")
 
-    def load(self) -> None:
+    def load(self):
         self.page.goto(Config.url)
-        self.logger.info(f'Aceess {Config.url}')
 
-    def search(self, phrase: str) -> None:
+    def search(self, phrase):
         self.search_input.fill(phrase)
         self.search_button.click()
-        self.logger.info(f'Search {phrase}')
