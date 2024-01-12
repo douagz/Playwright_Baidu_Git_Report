@@ -1,0 +1,81 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Baidu search",
+    "children" : [ {
+      "name" : "Test Baidu basic search",
+      "children" : [ {
+        "name" : "test_basic_baidu_search[chromium-phrase0]",
+        "uid" : "a2b5028d190153ee",
+        "parentUid" : "0ebc4a90bcb77b7f3c3ae25abc161b96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702003339506,
+          "stop" : 1702003343967,
+          "duration" : 4461
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'chromium'", "{'id': 1, 'phrase': 'Munger', 'expected_title': 'Munger_百度搜索'}" ]
+      }, {
+        "name" : "test_basic_baidu_search[chromium-phrase1]",
+        "uid" : "282204d18b5b17c6",
+        "parentUid" : "0ebc4a90bcb77b7f3c3ae25abc161b96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702003344203,
+          "stop" : 1702003348723,
+          "duration" : 4520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'chromium'", "{'id': 2, 'phrase': 'playwright', 'expected_title': 'playwright_百度搜索'}" ]
+      }, {
+        "name" : "test_basic_baidu_search[firefox-phrase0]",
+        "uid" : "cd1fbe1435a2ce8b",
+        "parentUid" : "0ebc4a90bcb77b7f3c3ae25abc161b96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702003351272,
+          "stop" : 1702003356757,
+          "duration" : 5485
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'firefox'", "{'id': 1, 'phrase': 'Munger', 'expected_title': 'Munger_百度搜索'}" ]
+      }, {
+        "name" : "test_basic_baidu_search[firefox-phrase1]",
+        "uid" : "ce692870579e7940",
+        "parentUid" : "0ebc4a90bcb77b7f3c3ae25abc161b96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1702003357108,
+          "stop" : 1702003362323,
+          "duration" : 5215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'firefox'", "{'id': 2, 'phrase': 'playwright', 'expected_title': 'playwright_百度搜索'}" ]
+      } ],
+      "uid" : "0ebc4a90bcb77b7f3c3ae25abc161b96"
+    } ],
+    "uid" : "1695250a5b2d2a5929110820eb801949"
+  } ]
+}

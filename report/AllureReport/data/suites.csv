@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Dec 08 10:42:37 CST 2023","Fri Dec 08 10:42:42 CST 2023","5215","tests","test_search","","","","test_basic_baidu_search[firefox-phrase1]",""
+"passed","Fri Dec 08 10:42:31 CST 2023","Fri Dec 08 10:42:36 CST 2023","5485","tests","test_search","","","","test_basic_baidu_search[firefox-phrase0]",""
+"passed","Fri Dec 08 10:42:24 CST 2023","Fri Dec 08 10:42:28 CST 2023","4520","tests","test_search","","","","test_basic_baidu_search[chromium-phrase1]",""
+"passed","Fri Dec 08 10:42:19 CST 2023","Fri Dec 08 10:42:23 CST 2023","4461","tests","test_search","","","","test_basic_baidu_search[chromium-phrase0]",""

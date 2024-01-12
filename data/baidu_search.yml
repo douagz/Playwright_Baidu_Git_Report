@@ -1,0 +1,9 @@
+url: https://baidu.com
+phrases:
+  - id: 1
+    phrase: 'Munger'
+    expected_title: 'Munger_百度搜索'
+
+  - id: 2
+    phrase: 'playwright'
+    expected_title: 'playwright_百度搜索'

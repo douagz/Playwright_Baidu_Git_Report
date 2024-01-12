@@ -1,0 +1,6 @@
+INFO     TestBaiduBasicSearch:test_search.py:20 Start to test basic baidu search
+INFO     BaiduSearchPage:search.py:19 Aceess https://baidu.com
+INFO     BaiduSearchPage:search.py:25 Search Munger
+INFO     BaiduResultPage:result.py:17 Get search result links
+INFO     BaiduResultPage:result.py:24 Get 9 matched titles
+INFO     TestBaiduBasicSearch:test_search.py:42 End testing basic baidu search
