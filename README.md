@@ -5,8 +5,6 @@ In this practice, a web page will be launched to access Baidu.com, then it will 
 
 # Structure
 
-**Logs**: directory for log files.
-
 **common**: directory for general tools.
 
 **config**: directory for configuration file.
