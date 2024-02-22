@@ -1,7 +1,5 @@
 import pytest
 from playwright.sync_api import Page, expect
-from pages.search import BaiduSearchPage
-from pages.result import BaiduResultPage
 from common.load_baidu_search_data import load_baidu_search_data
 
 data=load_baidu_search_data()
